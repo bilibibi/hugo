@@ -1,0 +1,14 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseURL = "https://jastdogit.github.io/"
+
+# Language
+languageCode = "zh-cn"
+
+# Site title
+title = "Hello, I'm Franky."
+
+# Copyright
+# copyright = "(c) 2019 franky."
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "tale"

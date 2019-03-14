@@ -1,0 +1,48 @@
+baseURL = "https://jastdogit.github.io/"
+languageCode = "en"
+theme = "hello-friend"
+paginate = 3
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+  # "light" or "dark"
+  defaultTheme = "light"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+[languages]
+  [languages.en]
+    title = "Hello, I'm Franky."
+    subtitle = ""
+    keywords = ""
+    copyright = "(c) 2019 franky."
+    menuMore = "更多"
+    writtenBy = ""
+    readMore = "打开"
+    readOtherPosts = "Read other posts"
+    newerPosts = "上页"
+    olderPosts = "下页"
+    minuteReadingTime = "分钟读完"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "Hello, I'm Franky. "
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/images/apple-touch-icon.png"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "主页"
+        url = "/"
+      [[languages.en.menu.main]]
+        identifier = "list"
+        name = "日记"
+        url = "/daily/"
