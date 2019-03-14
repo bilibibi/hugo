@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://jastdogit.github.io/"
-title = "Franky's Blog"
+title = "Hi, I'm Franky."
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
